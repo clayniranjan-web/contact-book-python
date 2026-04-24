@@ -1,8 +1,8 @@
 def add_contact(contacts):
     """Adds new contact & updates contacts book"""
     name = input("Enter Your name:")
-    phone = input("Enter Your Phone:")
-    email = input("Enter Your Email:")
+    phone = input("Enter Your phone:")
+    email = input("Enter Your email:")
     if name in contacts:
         print("❌Contact already exists")
     else:
